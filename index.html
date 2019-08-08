@@ -1,0 +1,20 @@
+<html>
+<header>
+</header>
+
+<body>
+    <button>player: Chris</button>
+
+    <script>
+        const para = document.querySelector('button');
+        para.addEventListener('click', updateName);
+        
+        function updateName(){
+            let name = prompt('enter a new name');
+            para.textContent = 'player:' + name;
+        }
+        </script>
+        <p>hellow</p>
+</body>
+
+</html>
