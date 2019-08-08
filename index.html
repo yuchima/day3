@@ -3,10 +3,12 @@
 </header>
 
 <body>
-    <button>player: Chris</button>
+        <p>hello</p>
+    <p id='p'>player: Chris</p>
+
 
     <script>
-        const para = document.querySelector('button');
+        const para = document.querySelector('#p');
         para.addEventListener('click', updateName);
         
         function updateName(){
@@ -14,7 +16,7 @@
             para.textContent = 'player:' + name;
         }
         </script>
-        <p>hellow</p>
+
 </body>
 
 </html>
